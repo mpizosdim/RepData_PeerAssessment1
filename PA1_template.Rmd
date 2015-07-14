@@ -1,5 +1,5 @@
 ---
-title: "PA1_template"
+title: "Reproducible Research: Peer Assignment 1"
 author: "Bizopoulos Dimitrios"
 date: "Monday, July 13, 2015"
 output: html_document
