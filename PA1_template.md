@@ -116,7 +116,7 @@ sum(is.na(data$steps))
 ## [1] 0
 ```
 
-The histogram follows:
+Following the same procedure as before to output the histogram we aggregate  the total number of steps taken each day.
 
 
 ```r
@@ -143,7 +143,7 @@ MeanStep <- mean(SumStep$steps)
 MedianStep <- median(SumStep$steps)
 ```
 
-The mean of the total number of steps taken per day is 1.0766189 &times; 10<sup>4</sup>. The median value is 1.0766189 &times; 10<sup>4</sup>.It can be observed that the median value changed slightly after filling the NA values. Furthermore, median and mean value are identical.
+The mean of the total number of steps taken per day is 1.0766189 &times; 10<sup>4</sup>. The median value is 1.0766189 &times; 10<sup>4</sup>.It can be observed that the median value changed slightly after filling the NA values. Furthermore, median and mean value are identical now.
 
 ## Are there differences in activity patterns between weekdays and weekends
 
